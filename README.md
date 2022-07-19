@@ -7,7 +7,7 @@ while keeping good practices and architecture in mind.
 The game is a turn-based multiplayer game, where two clients play against eachother
 and win by finding a hidden treassure on the game map and bringinig it to their fort first.
 
-**The Client**  
+### The Client
 - communication to the server (sending and receiving data)
 - command line interface (MVC pattern)
 - generation of a game map (floodfill)
@@ -16,7 +16,7 @@ and win by finding a hidden treassure on the game map and bringinig it to their 
     - finding a path to the destination (dijkstra)
 - Logging, error handling & unit testing (mockito)
 
-**The Server**  
+### The Server
 - communication to the client (sending and receiving data)
 - checking business rule violations
 - hide treassure on map
